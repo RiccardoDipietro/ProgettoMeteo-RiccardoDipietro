@@ -1,0 +1,75 @@
+/* container input */
+
+.container-input{
+    border: 1px solid black;
+    margin: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 13px -9px 39px 10px rgba(0,0,0,0.75);
+    border-radius: 50%;
+    padding: 30px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    height: 15vh;
+    background-color: white;
+}
+
+#bottone{
+    width: 70px;
+    margin: auto;
+
+}
+
+#city{
+    width: 100px;
+    margin: auto;
+}
+
+label{
+    margin: auto;
+}
+
+/* container dati meteo dinamici */
+
+.meteoDinamico{
+    border: 1px solid black;
+    margin: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 13px -9px 39px 10px rgba(0,0,0,0.75);
+    border-radius: 10%;
+    padding: 20px;
+    overflow: hidden;
+    align-items: center;
+    height: 40vh;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.icon-custom{
+    font-size: 100px;
+    color: gray;
+}
+
+
+@media screen and (max-width: 500px){
+    .container-input{
+        width: 70%;
+    }
+
+    .meteoDinamico{
+        width: 70%;
+    }
+}
+
+#container-meteo{
+    text-align: center;
+}
+
+#container-icona{
+    text-align: center;
+    margin-bottom: 30px
+}
